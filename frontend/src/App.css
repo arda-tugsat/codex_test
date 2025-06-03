@@ -1,0 +1,30 @@
+nav {
+  padding: 1rem;
+  background: #222;
+}
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+.chat-container {
+  padding: 1rem;
+}
+.messages {
+  min-height: 300px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.message.user {
+  text-align: right;
+  color: blue;
+}
+.message.assistant {
+  text-align: left;
+  color: green;
+}
+.input-area {
+  display: flex;
+  gap: 0.5rem;
+}
