@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="onboarding" class="hidden">
+        <h1>Welcome to the Creative Chatbot!</h1>
+        <p>Start chatting to explore AI conversations and Exa-powered search.</p>
+    </div>
+    <div class="chat-container light" id="chat-container">
+        <header>
+            <h2>Creative Chatbot</h2>
+            <div class="theme-switch" id="theme-switch">🌙</div>
+        </header>
+        <main id="chat-window"></main>
+        <div class="search-bar" id="search-bar">
+            <input type="text" id="search-input" placeholder="Search the web..." />
+            <button id="search-btn">🔍</button>
+        </div>
+        <footer>
+            <input type="text" id="chat-input" placeholder="Type a message..." />
+            <button id="send-btn">Send</button>
+        </footer>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
